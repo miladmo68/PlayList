@@ -1,65 +1,58 @@
-<h1 align="center">🎵 PlayList</h1>
+<div align="center">
+
+# 🎵 Milad Playlist
+
+A playlist manager where users add songs with artist and rating, built with HTML, CSS, JavaScript and Firebase.
+
+<a href="https://github.com/miladmo68/PlayList"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code"></a>
+<a href="https://miladweb.com"><img src="https://img.shields.io/badge/Portfolio-miladweb.com-1E3A8A?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio"></a>
+
+</div>
 
 <p align="center">
-  <a href="https://miladmo68.github.io/PlayList/"><b>🔗 Live Demo</b></a> •
-  <a href="https://github.com/miladmo68/PlayList"><b>📦 Repository</b></a>
+  <img src="./.github/preview.jpg" alt="Milad Playlist screenshot" width="100%" />
 </p>
 
-<p align="center">
-  A minimal web app composed of HTML, CSS, and JavaScript—perfectly set up to serve as a foundation for building a playlist interface or interactive music browsing experience.
-</p>
+## ✨ Features
 
----
+- Add songs with artist, title and rating
+- Playlist table with actions
+- Firebase Firestore storage
 
-## ​ Screenshot
+## 🛠️ Tech Stack
 
-<p align="center">
-<img alt="PlayList" 
-     src="https://github.com/user-attachments/assets/d5f11493-e955-44ff-ae7a-cf1cf9c0e252" 
-     width="1920" height="1080" loading="lazy" />
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 
-  </p>
+> [!NOTE]
+> There is no hosted demo for this project. Run it locally with the steps below.
 
----
+## 🚀 Getting Started
 
-## ​ Tech Stack
-
-<p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3&logoColor=white" />
-</p>
-
----
-
-## ​ Features
-
-| Feature                        | Description |
-|-------------------------------|-------------|
-| **Vanilla Web Essentials**    | Built with HTML, CSS, and JavaScript—no frameworks needed |
-| **Playlist Foundation**       | Ready structure to display songs, album art, or controls |
-| **Interactive Enhancements**  | Ideal for adding play/pause buttons, track switching, or animations |
-| **Organized Project Layout**  | Includes folders for CSS and images, plus core logic in `app.js` |
-| **Easy to Extend**            | Great base for integrating audio APIs, dynamic lists, or responsive design |
-
----
-
-<p align="center">
-  <b>👨‍💻 Author: Milad Mohammadi</b><br>
-  🌐 <a href="https://miladweb.com">Website</a> • 💼 <a href="https://linkedin.com/in/miladmo68">LinkedIn</a> • 🐙 <a href="https://github.com/miladmo68">GitHub</a>
-</p>
-
----
-
-## ​ Getting Started
+**Run locally**
 
 ```bash
-# 1) Clone the repository
 git clone https://github.com/miladmo68/PlayList.git
 cd PlayList
+# open index.html in your browser, or serve the folder:
+npx serve .
+```
 
-# 2) Run it in your browser
-#Simply open index.html in your preferred web browser
+## 📁 Project Structure
 
-# (Optional) For local server setup:
-npx serve
+```
+PlayList/
+├── css/
+├── images/
+├── app.js
+└── index.html
+```
+
+## 👤 Author
+
+**Milad Mohammadi** — Frontend-Focused Full-Stack Developer, Toronto 🇨🇦
+
+[![Website](https://img.shields.io/badge/Website-miladweb.com-FF6A00?style=flat-square&logo=googlechrome&logoColor=white)](https://miladweb.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-miladmo68-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miladmo68/)
+[![GitHub](https://img.shields.io/badge/GitHub-miladmo68-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/miladmo68)
+
+<p align="center"><sub>If you like this project, consider giving it a ⭐</sub></p>
